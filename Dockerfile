@@ -1,4 +1,4 @@
-# wikipedia-dump-tools for Debian jessie
+# Dockerized wikipedia-dump-tools
 #
 # URL: https://github.com/William-Yeh/docker-wikipedia-dump-tools
 #
@@ -6,6 +6,24 @@
 #
 # Version     0.1
 #
+#----------
+#    Dockerized wikipedia-dump-tools
+#    Copyright (C) 2014  William Yeh <william.pjyeh@gmail.com>
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#----------
+
 
 # pull base image
 FROM williamyeh/python2
